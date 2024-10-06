@@ -57,7 +57,7 @@ class Navbar extends React.Component {
                 src="https://cdn-icons-png.flaticon.com/128/891/891462.png"
               />
               
-              <CartCount color="yellow" show = {true} >{cartCount}</CartCount> 
+              <CartCount color="yellow" show = {cartCount > 0} >{cartCount}</CartCount> 
             </CartContainer>
           </Nav>
         </>
