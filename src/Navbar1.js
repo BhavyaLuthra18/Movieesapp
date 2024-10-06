@@ -10,12 +10,12 @@ justify-content:space-between;
 `;
 
 const Title = Styled.div`
-  font-size: 30px;
+  font-size: 20px;
   color: #fff;
-  font-weight: 600;
+  font-weight: 500;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  margin-left: 20px;
+  margin-left: 30px;
   &:hover {
     color: red;
   }
@@ -50,7 +50,7 @@ class Navbar extends React.Component {
       return (
         <>
           <Nav>
-            <Title>Movie-App.</Title>
+            <Title>Cinema Hive</Title>
             <CartContainer>
               <CartIcon
                 
