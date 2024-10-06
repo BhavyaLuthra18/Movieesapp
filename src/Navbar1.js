@@ -3,16 +3,19 @@ import  Styled from "styled-components";
 
 const Nav = Styled.div`
 width:100%;
-height:70px;
-background:linear-gradient(170deg,#1bc059,#0d47a1);
+height:50px;
+background:#1B2843;
 display:flex;
 justify-content:space-between;
+align-items:center;
+padding:10px;
 `;
 
 const Title = Styled.div`
   font-size: 20px;
   color: #fff;
   font-weight: 500;
+  text-align:center;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   margin-left: 30px;
